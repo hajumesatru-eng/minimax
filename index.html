@@ -275,7 +275,7 @@ function togglePlay() {
 
 function updateUI() {
     document.getElementById("time").innerText =
-        `${formatTime(currentTime)} / 13:50`;
+        `${formatTime(currentTime)} / 60:50`;
 
     let percent = (currentTime / duration) * 100;
     document.getElementById("progress").style.width = percent + "%";
